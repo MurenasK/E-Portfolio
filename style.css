@@ -98,7 +98,14 @@ nav {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: black;
 }
+
+.about-me__info--title{
+    margin-top: 20px;
+    color: white;
+}
+
 
 .about-me__info--container {
     display: flex;
@@ -120,4 +127,11 @@ nav {
     width: 100%;
 }
 
+
+.about-me__info--para {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
 
